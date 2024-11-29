@@ -56,6 +56,7 @@ function BarChart01({ data, width, height }) {
 								hour: 'HH',
 							},
 						},
+						label: 'hours',
 						border: {
 							display: false,
 						},
