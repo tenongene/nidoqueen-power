@@ -184,8 +184,14 @@ function BarChart01({ data, width, height }) {
 
 	return (
 		<React.Fragment>
-			<div className="px-5 py-3">
+			{/* <div className="px-5 py-3">
 				<ul ref={legend} className="flex flex-wrap gap-x-4"></ul>
+			</div> */}
+			<div className="px-5 py-3">
+				<ul className="flex flex-wrap gap-x-4 text-xl py-5 font-bold">
+					{' '}
+					Highest Consumption Hours: Between 8PM and 10PM
+				</ul>
 			</div>
 			<div className="grow">
 				<canvas ref={canvas} width={width} height={height}></canvas>
