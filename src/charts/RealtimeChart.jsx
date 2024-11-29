@@ -30,21 +30,21 @@ function RealtimeChart({ data, width, height }) {
 					padding: 20,
 				},
 				scales: {
-					y: {
-						border: {
-							display: false,
-						},
-						suggestedMin: 30,
-						suggestedMax: 80,
-						ticks: {
-							maxTicksLimit: 5,
-							callback: (value) => formatValue(value),
-							color: darkMode ? textColor.dark : textColor.light,
-						},
-						grid: {
-							color: darkMode ? gridColor.dark : gridColor.light,
-						},
-					},
+					// y: {
+					// 	border: {
+					// 		display: false,
+					// 	},
+					// 	suggestedMin: 30,
+					// 	suggestedMax: 80,
+					// 	ticks: {
+					// 		maxTicksLimit: 5,
+					// 		callback: (value) => formatValue(value),
+					// 		color: darkMode ? textColor.dark : textColor.light,
+					// 	},
+					// 	grid: {
+					// 		color: darkMode ? gridColor.dark : gridColor.light,
+					// 	},
+					// },
 					x: {
 						type: 'time',
 						time: {

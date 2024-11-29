@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import LineChart from '../../charts/LineChart01';
+import LineChart from '../../charts/LineChart03';
 import { chartAreaGradient } from '../../charts/ChartjsConfig';
 import EditMenu from '../../components/DropdownEditMenu';
 

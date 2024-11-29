@@ -6,7 +6,7 @@ import { tailwindConfig } from '../../utils/Utils';
 
 function DashboardCard04() {
 	const chartData = {
-		labels: ['06-01-2024', '07-01-2024', '08-01-2024', '09-01-2024', '10-01-2024', '11-01-2024'],
+		labels: ['0', '2', '4', '6', '8', '10'],
 		datasets: [
 			// Light blue bars
 			{
