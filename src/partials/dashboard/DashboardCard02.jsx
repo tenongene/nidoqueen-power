@@ -41,8 +41,8 @@ function DashboardCard02() {
 			// Indigo line
 			{
 				data: [
-					622, 622, 426, 471, 365, 365, 238, 324, 288, 206, 324, 324, 500, 409, 409, 273, 232, 273, 500, 570, 767, 808,
-					685, 767, 685, 685,
+					622, 622, 426, 471, 365, 365, 238, 324, 288, 206, 324, 400, 500, 409, 273, 232, 273, 500, 570, 767, 808, 685,
+					767, 820,
 				],
 				fill: true,
 				backgroundColor: function (context) {
@@ -112,7 +112,7 @@ function DashboardCard02() {
 				</header>
 				<div className="text-xs font-semibold text-gray-400 dark:text-gray-500 uppercase mb-1"></div>
 				<div className="flex items-start">
-					<div className="text-3xl font-bold text-gray-800 dark:text-gray-100 mr-2">$389</div>
+					<div className="text-3xl font-bold text-gray-800 dark:text-gray-100 mr-2">$820</div>
 					<div className="text-sm font-medium text-green-700 px-1.5 bg-green-500/20 rounded-full">+7%</div>
 				</div>
 			</div>
