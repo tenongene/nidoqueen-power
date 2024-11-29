@@ -43,7 +43,7 @@ function LineChart01({ data, width, height }) {
 							parser: 'MM-DD-YYYY',
 							unit: 'month',
 						},
-						display: false,
+						display: true,
 					},
 				},
 				plugins: {

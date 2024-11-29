@@ -9,41 +9,11 @@ import { tailwindConfig, hexToRGB } from '../../utils/Utils';
 
 function DashboardCard01() {
 	const chartData = {
-		labels: [
-			'12-01-2022',
-			'01-01-2023',
-			'02-01-2023',
-			'03-01-2023',
-			'04-01-2023',
-			'05-01-2023',
-			'06-01-2023',
-			'07-01-2023',
-			'08-01-2023',
-			'09-01-2023',
-			'10-01-2023',
-			'11-01-2023',
-			'12-01-2023',
-			'01-01-2024',
-			'02-01-2024',
-			'03-01-2024',
-			'04-01-2024',
-			'05-01-2024',
-			'06-01-2024',
-			'07-01-2024',
-			'08-01-2024',
-			'09-01-2024',
-			'10-01-2024',
-			'11-01-2024',
-			'12-01-2024',
-			'01-01-2025',
-		],
+		labels: ['05-01-2024', '06-01-2024', '07-01-2024', '08-01-2024', '09-01-2024', '10-01-2024', '11-01-2024'],
 		datasets: [
 			// Indigo line
 			{
-				data: [
-					1342, 1003, 735, 1508, 1642, 1117, 703, 984, 1407, 609, 1005, 923, 1695, 1022, 1100, 1523, 625, 1708, 821,
-					1052, 1244, 1586, 1448, 1783,
-				],
+				data: [1708, 821, 1052, 1244, 1586, 1448, 1783],
 				fill: true,
 				backgroundColor: function (context) {
 					const chart = context.chart;
@@ -114,7 +84,7 @@ function DashboardCard01() {
 				</header>
 				<div className="text-xs font-semibold text-gray-400 dark:text-gray-500 uppercase mb-1"></div>
 				<div className="flex items-start">
-					<div className="text-3xl font-bold text-gray-800 dark:text-gray-100 mr-2">1500 kWh</div>
+					<div className="text-3xl font-bold text-gray-800 dark:text-gray-100 mr-2">1783 kWh</div>
 					<div className="text-sm font-medium text-green-700 px-1.5 bg-green-500/20 rounded-full">+10%</div>
 				</div>
 			</div>
