@@ -9,8 +9,8 @@ function DashboardCard06() {
 		labels: ['Friday', 'Monday', 'Saturday'],
 		datasets: [
 			{
-				label: '',
-				data: [3, 2, 4],
+				label: 'Number of weeks:',
+				data: [18, 8, 29],
 				backgroundColor: [
 					tailwindConfig().theme.colors.violet[500],
 					tailwindConfig().theme.colors.sky[500],
