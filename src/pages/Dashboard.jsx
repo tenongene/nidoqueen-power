@@ -38,7 +38,9 @@ function Dashboard() {
 						<div className="sm:flex sm:justify-between sm:items-center mb-8">
 							{/* Left: Title */}
 							<div className="mb-4 sm:mb-0">
-								<h1 className="text-2xl md:text-3xl text-gray-800 dark:text-gray-100 font-bold">Dashboard</h1>
+								<h1 className="text-2xl md:text-3xl text-gray-800 dark:text-gray-100 font-bold">
+									POWER MONITORING DASHBOARD
+								</h1>
 							</div>
 
 							{/* Right: Actions */}
@@ -74,17 +76,17 @@ function Dashboard() {
 							{/* Table (Top Channels) */}
 							<DashboardCard07 />
 							{/* Line chart (Sales Over Time) */}
-							<DashboardCard08 />
+							{/* <DashboardCard08 /> */}
 							{/* Stacked bar chart (Sales VS Refunds) */}
-							<DashboardCard09 />
+							{/* <DashboardCard09 /> */}
 							{/* Card (Customers) */}
-							<DashboardCard10 />
+							{/* <DashboardCard10 /> */}
 							{/* Card (Reasons for Refunds) */}
 							<DashboardCard11 />
 							{/* Card (Recent Activity) */}
 							<DashboardCard12 />
 							{/* Card (Income/Expenses) */}
-							<DashboardCard13 />
+							{/* <DashboardCard13 /> */}
 						</div>
 					</div>
 				</main>
