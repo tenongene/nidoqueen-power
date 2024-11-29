@@ -78,7 +78,7 @@ function DropdownNotifications({ align }) {
 								onClick={() => setDropdownOpen(!dropdownOpen)}
 							>
 								<span className="block text-sm mb-2">
-									📣{' '}
+									❗{' '}
 									<span className="font-medium text-gray-800 dark:text-gray-100">
 										<stong>High Power Usage Alert!</stong>
 									</span>{' '}
@@ -97,7 +97,7 @@ function DropdownNotifications({ align }) {
 								onClick={() => setDropdownOpen(!dropdownOpen)}
 							>
 								<span className="block text-sm mb-2">
-									📣{' '}
+									❗{' '}
 									<span className="font-medium text-gray-800 dark:text-gray-100">
 										<strong>Device Left On!</strong>
 									</span>{' '}
@@ -116,9 +116,8 @@ function DropdownNotifications({ align }) {
 								onClick={() => setDropdownOpen(!dropdownOpen)}
 							>
 								<span className="block text-sm mb-2">
-									🚀
 									<span className="font-medium text-gray-800 dark:text-gray-100">
-										<strong>Power Outage Detected!</strong>
+										⚡ <strong>Power Outage Detected!</strong>
 									</span>{' '}
 									<p>Power supply was interrupted at 3:30 AM. Backup systems are active.</p>
 								</span>
