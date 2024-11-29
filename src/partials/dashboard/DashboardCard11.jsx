@@ -43,15 +43,15 @@ function DashboardCard11() {
 			{
 				label: 'Other',
 				data: [65],
-				backgroundColor: tailwindConfig().theme.colors.gray[200],
-				hoverBackgroundColor: tailwindConfig().theme.colors.gray[300],
+				backgroundColor: tailwindConfig().theme.colors.gray[400],
+				hoverBackgroundColor: tailwindConfig().theme.colors.gray[400],
 				barPercentage: 1,
 				categoryPercentage: 1,
 			},
 			{
 				label: 'Delivery Charge, Service Fee and Taxes (fixed)',
 				data: [20],
-				backgroundColor: tailwindConfig().theme.colors.gray[200],
+				backgroundColor: tailwindConfig().theme.colors.gray[300],
 				hoverBackgroundColor: tailwindConfig().theme.colors.gray[300],
 				barPercentage: 1,
 				categoryPercentage: 1,
