@@ -17,6 +17,7 @@ import DashboardCard10 from '../partials/dashboard/DashboardCard10';
 import DashboardCard11 from '../partials/dashboard/DashboardCard11';
 import DashboardCard12 from '../partials/dashboard/DashboardCard12';
 import DashboardCard13 from '../partials/dashboard/DashboardCard13';
+import DashboardCard14 from '../partials/dashboard/DashboardCard14';
 import Banner from '../partials/Banner';
 
 function Dashboard() {
@@ -87,6 +88,8 @@ function Dashboard() {
 							<DashboardCard12 />
 							{/* Card (Income/Expenses) */}
 							{/* <DashboardCard13 /> */}
+							{/* Current Power Usage */}
+							<DashboardCard14 />
 						</div>
 					</div>
 				</main>
