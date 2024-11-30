@@ -13,7 +13,7 @@ function DashboardCard01() {
 		datasets: [
 			// Indigo line
 			{
-				data: [1708, 821, 1052, 1244, 1586, 1448, 1783],
+				data: [825, 643, 1420, 500, 1024, 1235, 1783],
 				fill: true,
 				backgroundColor: function (context) {
 					const chart = context.chart;
@@ -91,7 +91,7 @@ function DashboardCard01() {
 			{/* Chart built with Chart.js 3 */}
 			<div className="grow max-sm:max-h-[128px] xl:max-h-[128px]">
 				{/* Change the height attribute to adjust the chart height */}
-				<LineChart data={chartData} width={389} height={128} />
+				<LineChart data={chartData} width={389} height={128} className="px-2" />
 			</div>
 		</div>
 	);

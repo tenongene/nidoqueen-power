@@ -78,10 +78,7 @@ function DropdownNotifications({ align }) {
 								onClick={() => setDropdownOpen(!dropdownOpen)}
 							>
 								<span className="block text-sm mb-2">
-									❗{' '}
-									<span className="font-medium text-gray-800 dark:text-gray-100">
-										<stong>High Power Usage Alert!</stong>
-									</span>{' '}
+									❗ <span className="font-semibold text-gray-800 dark:text-gray-100">High Power Usage Alert!</span>{' '}
 									<p>
 										Your power usage has spiked to 3.2 kW, significantly above your daily average. Check your appliances
 									</p>
@@ -97,10 +94,7 @@ function DropdownNotifications({ align }) {
 								onClick={() => setDropdownOpen(!dropdownOpen)}
 							>
 								<span className="block text-sm mb-2">
-									❗{' '}
-									<span className="font-medium text-gray-800 dark:text-gray-100">
-										<strong>Device Left On!</strong>
-									</span>{' '}
+									❗ <span className="font-semibold text-gray-800 dark:text-gray-100 ">Device Left On!</span>{' '}
 									<p>
 										Your air conditioner has been running for 10 hours straight. Consider turning it off to conserve
 										energy.
@@ -116,9 +110,7 @@ function DropdownNotifications({ align }) {
 								onClick={() => setDropdownOpen(!dropdownOpen)}
 							>
 								<span className="block text-sm mb-2">
-									<span className="font-medium text-gray-800 dark:text-gray-100">
-										⚡ <strong>Power Outage Detected!</strong>
-									</span>{' '}
+									<span className="font-semibold text-gray-800 dark:text-gray-100">⚡ Power Outage Detected!</span>{' '}
 									<p>Power supply was interrupted at 3:30 AM. Backup systems are active.</p>
 								</span>
 								<span className="block text-xs font-medium text-gray-400 dark:text-gray-500">Nov 24, 2024</span>

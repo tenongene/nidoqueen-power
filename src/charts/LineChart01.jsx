@@ -26,6 +26,9 @@ function LineChart01({ data, width, height }) {
 			options: {
 				layout: {
 					padding: 20,
+					font: {
+						size: 5,
+					},
 				},
 				scales: {
 					y: {
