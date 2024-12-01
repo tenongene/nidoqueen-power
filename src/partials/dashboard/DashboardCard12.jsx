@@ -1,38 +1,59 @@
 import React from 'react';
 
+/**
+ * Generate a sorted array of random timestamps for the current day, all in the past.
+ * @param {number} count - Number of random timestamps to generate.
+ * @returns {string[]} Array of ISO formatted timestamps.
+ */
+function getRandomTimestampForToday(count) {
+	const now = new Date();
+	const startOfDay = new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime();
+	const currentTime = now.getTime();
+
+	// Generate random timestamps
+	const timestamps = Array.from({ length: count }, () => {
+		return new Date(startOfDay + Math.random() * (currentTime - startOfDay));
+	});
+	// Sort timestamps in ascending order
+	timestamps.sort((a, b) => a - b);
+	// Format as ISO strings
+	return timestamps.map((ts) => ts.toISOString());
+}
+const randomTimestamps = getRandomTimestampForToday(6);
+
 const activityLog = [
 	{
-		timestamp: '2024-11-29T10:30:00Z',
+		timestamp: randomTimestamps[5],
 		device: 'Refrigerator',
 		status: 'Active',
 		powerUsage: '90W',
 	},
 	{
-		timestamp: '2024-11-29T10:32:00Z',
+		timestamp: randomTimestamps[4],
 		device: 'Air Conditioner',
 		status: 'Standby',
 		powerUsage: '5W',
 	},
 	{
-		timestamp: '2024-11-29T10:34:00Z',
+		timestamp: randomTimestamps[3],
 		device: 'Washer',
 		status: 'Running',
 		powerUsage: '1200W',
 	},
 	{
-		timestamp: '2024-11-29T10:36:00Z',
+		timestamp: randomTimestamps[2],
 		device: 'Electric Oven',
 		status: 'Idle',
 		powerUsage: '0W',
 	},
 	{
-		timestamp: '2024-11-29T10:36:00Z',
+		timestamp: randomTimestamps[1],
 		device: 'Water Heater',
 		status: 'Active',
 		powerUsage: '56W',
 	},
 	{
-		timestamp: '2024-11-29T10:38:00Z',
+		timestamp: randomTimestamps[0],
 		device: 'TV',
 		status: 'Active',
 		powerUsage: '100W',
