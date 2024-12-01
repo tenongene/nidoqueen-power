@@ -43,17 +43,17 @@ function DashboardCard12() {
 	return (
 		<div className="col-span-full xl:col-span-6 bg-white dark:bg-gray-800 shadow-sm rounded-xl">
 			<header className="px-5 py-4 border-b border-gray-100 dark:border-gray-700/60">
-				<h2 className="font-semibold text-gray-800 dark:text-gray-100">Recent Activity</h2>
+				<h2 className="font-semibold text-gray-800 dark:text-gray-100">Device Activity Log</h2>
 			</header>
 			<div className="p-3">
 				{/* Card content */}
 				{/* "Today" group */}
 				<div>
-					<header className="text-xs uppercase text-gray-400 dark:text-gray-500 bg-gray-50 dark:bg-gray-700 dark:bg-opacity-50 rounded-sm font-semibold p-2">
+					<header className="text-xs uppercase text-gray-400 dark:text-gray-500 bg-gray-50 dark:bg-gray-700 dark:bg-opacity-50 rounded-sm font-semibold p-2 my-5">
 						Today
 					</header>
 					<div className="max-w-3xl mx-auto p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-lg">
-						<h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-4">Device Activity Log</h2>
+						<h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-4"></h2>
 						<table className="w-full table-auto border-collapse border border-gray-300 dark:border-gray-700">
 							<thead>
 								<tr className="bg-gray-200 dark:bg-gray-700">
