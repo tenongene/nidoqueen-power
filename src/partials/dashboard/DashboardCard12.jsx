@@ -5,7 +5,7 @@ const activityLog = [
 		timestamp: '2024-11-29T10:30:00Z',
 		device: 'Refrigerator',
 		status: 'Active',
-		powerUsage: '150W',
+		powerUsage: '90W',
 	},
 	{
 		timestamp: '2024-11-29T10:32:00Z',
@@ -15,7 +15,7 @@ const activityLog = [
 	},
 	{
 		timestamp: '2024-11-29T10:34:00Z',
-		device: 'Washing Machine',
+		device: 'Washer',
 		status: 'Running',
 		powerUsage: '1200W',
 	},
@@ -24,6 +24,12 @@ const activityLog = [
 		device: 'Electric Oven',
 		status: 'Idle',
 		powerUsage: '0W',
+	},
+	{
+		timestamp: '2024-11-29T10:36:00Z',
+		device: 'Water Heater',
+		status: 'Active',
+		powerUsage: '56W',
 	},
 	{
 		timestamp: '2024-11-29T10:38:00Z',
