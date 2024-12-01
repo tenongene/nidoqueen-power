@@ -66,8 +66,8 @@ function Dashboard() {
 							<DashboardCard01 />
 							{/* Line chart (Acme Advanced) */}
 							<DashboardCard02 />
-							{/* Line chart (Acme Professional) */}
-							<DashboardCard03 />
+							{/* Current Power Usage */}
+							<DashboardCard14 />
 							{/* Bar chart (Direct vs Indirect) */}
 							<DashboardCard04 />
 							{/* Line chart (Real Time Value) */}
@@ -88,8 +88,6 @@ function Dashboard() {
 							<DashboardCard12 />
 							{/* Card (Income/Expenses) */}
 							{/* <DashboardCard13 /> */}
-							{/* Current Power Usage */}
-							<DashboardCard14 />
 						</div>
 					</div>
 				</main>
