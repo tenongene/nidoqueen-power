@@ -1,25 +1,23 @@
 import React from 'react';
-import DoughnutChart from '../../charts/DoughnutChart';
+import DoughnutChart02 from '../../charts/DoughnutChart02';
 
 // Import utilities
 import { tailwindConfig } from '../../utils/Utils';
 
 function DashboardCard14() {
 	const chartData = {
-		labels: ['Friday', 'Monday', 'Saturday'],
+		labels: ['This Month', 'Today'],
 		datasets: [
 			{
-				label: 'Number of weeks',
-				data: [18, 8, 29],
+				label: 'Consumed Energy (kW)',
+				data: ['527.3', '15.8'],
 				backgroundColor: [
 					tailwindConfig().theme.colors.violet[500],
 					tailwindConfig().theme.colors.sky[500],
-					tailwindConfig().theme.colors.violet[800],
 				],
 				hoverBackgroundColor: [
 					tailwindConfig().theme.colors.violet[600],
 					tailwindConfig().theme.colors.sky[600],
-					tailwindConfig().theme.colors.violet[900],
 				],
 				borderWidth: 0,
 			},
@@ -33,7 +31,7 @@ function DashboardCard14() {
 			</header>
 			{/* Chart built with Chart.js 3 */}
 			{/* Change the height attribute to adjust the chart height */}
-			<DoughnutChart data={chartData} width={389} height={260} />
+			<DoughnutChart02 data={chartData} width={389} height={260} />
 		</div>
 	);
 }
