@@ -53,7 +53,7 @@ function BarChart01({ data, width, height }) {
 							parser: 'HH:mm',
 							unit: 'hour',
 							displayFormats: {
-								hour: 'HH',
+								hour: 'h A',
 							},
 						},
 						label: 'hours',
@@ -65,6 +65,7 @@ function BarChart01({ data, width, height }) {
 						},
 						ticks: {
 							color: darkMode ? textColor.dark : textColor.light,
+							stepSize: 2,
 						},
 					},
 				},
@@ -188,10 +189,7 @@ function BarChart01({ data, width, height }) {
 				<ul ref={legend} className="flex flex-wrap gap-x-4"></ul>
 			</div> */}
 			<div className="px-5 py-3">
-				<ul className="flex flex-wrap gap-x-4 text-xl py-5 font-bold">
-					{' '}
-					Highest Consumption Hours: Between 8PM and 10PM
-				</ul>
+				<ul className="flex flex-wrap gap-x-4 text-xl py-5 font-bold"> </ul>
 			</div>
 			<div className="grow">
 				<canvas ref={canvas} width={width} height={height}></canvas>

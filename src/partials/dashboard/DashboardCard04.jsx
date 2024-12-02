@@ -6,28 +6,18 @@ import { tailwindConfig } from '../../utils/Utils';
 
 function DashboardCard04() {
 	const chartData = {
-		labels: ['2', '4', '6', '8', '10', '12', '14', '16', '18', '20', '22', '24'],
+		labels: ['0', '2', '4', '6', '8', '10', '12', '14', '16', '18', '20', '22'],
 		datasets: [
 			// Light blue bars
 			{
 				label: '',
-				data: [25, 25, 50, 400, 250, 300, 300, 200, 500, 900, 600, 175],
+				data: [25, 25, 50, 400, 250, 300, 300, 200, 500, 600, 900, 175],
 				backgroundColor: tailwindConfig().theme.colors.sky[500],
 				hoverBackgroundColor: tailwindConfig().theme.colors.sky[600],
 				barPercentage: 0.7,
 				categoryPercentage: 0.7,
 				borderRadius: 4,
 			},
-			// Blue bars
-			// {
-			// 	label: 'Current Year',
-			// 	data: [4900, 2600, 5350, 4800, 5200, 4800],
-			// 	backgroundColor: tailwindConfig().theme.colors.violet[500],
-			// 	hoverBackgroundColor: tailwindConfig().theme.colors.violet[600],
-			// 	barPercentage: 0.7,
-			// 	categoryPercentage: 0.7,
-			// 	borderRadius: 4,
-			// },
 		],
 	};
 
