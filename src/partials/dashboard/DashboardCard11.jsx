@@ -10,7 +10,7 @@ function DashboardCard11() {
 		datasets: [
 			{
 				label: 'Water Heating (variable)',
-				data: [131],
+				data: [27],
 				backgroundColor: tailwindConfig().theme.colors.violet[500],
 				hoverBackgroundColor: tailwindConfig().theme.colors.violet[600],
 				barPercentage: 1,
@@ -18,7 +18,7 @@ function DashboardCard11() {
 			},
 			{
 				label: 'HVAC (variable)',
-				data: [100],
+				data: [22],
 				backgroundColor: tailwindConfig().theme.colors.violet[700],
 				hoverBackgroundColor: tailwindConfig().theme.colors.violet[800],
 				barPercentage: 1,
@@ -26,7 +26,7 @@ function DashboardCard11() {
 			},
 			{
 				label: 'Laundry (variable)',
-				data: [81],
+				data: [18],
 				backgroundColor: tailwindConfig().theme.colors.sky[500],
 				hoverBackgroundColor: tailwindConfig().theme.colors.sky[600],
 				barPercentage: 1,
@@ -34,7 +34,7 @@ function DashboardCard11() {
 			},
 			{
 				label: 'Lighting (variable)',
-				data: [72],
+				data: [16],
 				backgroundColor: tailwindConfig().theme.colors.green[500],
 				hoverBackgroundColor: tailwindConfig().theme.colors.green[600],
 				barPercentage: 1,
@@ -42,7 +42,7 @@ function DashboardCard11() {
 			},
 			{
 				label: 'Other',
-				data: [65],
+				data: [13],
 				backgroundColor: tailwindConfig().theme.colors.gray[400],
 				hoverBackgroundColor: tailwindConfig().theme.colors.gray[400],
 				barPercentage: 1,
@@ -50,7 +50,7 @@ function DashboardCard11() {
 			},
 			{
 				label: 'Delivery Charge, Service Fee and Taxes (fixed)',
-				data: [20],
+				data: [4],
 				backgroundColor: tailwindConfig().theme.colors.gray[300],
 				hoverBackgroundColor: tailwindConfig().theme.colors.gray[300],
 				barPercentage: 1,
