@@ -23,6 +23,8 @@ import Banner from '../partials/Banner';
 function Dashboard() {
 	const [sidebarOpen, setSidebarOpen] = useState(false);
 
+	useEffect(() => {});
+
 	return (
 		<div className="flex h-screen overflow-hidden">
 			{/* Sidebar */}
