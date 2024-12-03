@@ -22,9 +22,9 @@ function App() {
 	return (
 		<>
 			<Routes>
-				<Route exact path="/" element={<Dashboard />} />
-				<Route exact path="/settings" element={<Settings />} />
-				<Route exact path="/insights" element={<Insights />} />
+				<Route exact path="/dashboard" element={<Dashboard />} />
+
+				<Route exact path="/" element={<Insights />} />
 			</Routes>
 		</>
 	);

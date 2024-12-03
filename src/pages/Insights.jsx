@@ -17,6 +17,9 @@ import DashboardCard10 from '../partials/dashboard/DashboardCard10';
 import DashboardCard11 from '../partials/dashboard/DashboardCard11';
 import DashboardCard12 from '../partials/dashboard/DashboardCard12';
 import DashboardCard13 from '../partials/dashboard/DashboardCard13';
+import DashboardCard15 from '../partials/dashboard/DashboardCard15';
+import DashboardCard16 from '../partials/dashboard/DashboardCard16';
+import DashboardCard17 from '../partials/dashboard/DashboardCard17';
 import Banner from '../partials/Banner';
 
 function Insights() {
@@ -38,7 +41,9 @@ function Insights() {
 						<div className="sm:flex sm:justify-between sm:items-center mb-8">
 							{/* Left: Title */}
 							<div className="mb-4 sm:mb-0">
-								<h1 className="text-2xl md:text-3xl text-gray-800 dark:text-gray-100 font-bold">Actionable Insights</h1>
+								<h1 className="text-2xl md:text-3xl text-gray-800 dark:text-gray-100 font-bold">
+									Your Power Usage at a Glance
+								</h1>
 							</div>
 
 							{/* Right: Actions */}
@@ -58,9 +63,16 @@ function Insights() {
 						</div>
 
 						{/* Cards */}
+						<div className=" grid grid-cols-12 gap-6 my-7">
+							<DashboardCard15 />
+							<DashboardCard16 />
+							<DashboardCard17 />
+						</div>
+
 						<div className="grid grid-cols-12 gap-6">
 							{/* Card (Income/Expenses) */}
 							<DashboardCard10 />
+							<DashboardCard06 />
 						</div>
 					</div>
 				</main>

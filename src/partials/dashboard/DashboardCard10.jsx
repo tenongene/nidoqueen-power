@@ -2,10 +2,10 @@
 import React, { useEffect, useState } from 'react';
 import { PopoverGroup, Popover, Transition } from '@headlessui/react';
 
-import Warn from '../../images/nidoqueen.svg';
-import Cash from '../../images/nidoqueen.svg';
-import Bolt from '../../images/icon-03.svg';
-import Gree from '../../images/profile-user.svg';
+import Warn from '../../images/010_Warn.svg';
+import Cash from '../../images/010_Cash.svg';
+import Bolt from '../../images/010_Bolt.svg';
+import Gree from '../../images/010_Gree.svg';
 
 function DashboardCard010() {
 	const [popoverActive, updatePopOver] = useState(true);
@@ -15,7 +15,7 @@ function DashboardCard010() {
 	const customers = [
 		{
 			id: '0',
-			name: 'Usage increase >25%',
+			name: 'Usage increased by over 25%',
 			fullTitle: 'Unusual Usage Increase',
 			fullText:
 				'Your power usage this month is over 25% higher than last month. You may want to check your appliances.',
@@ -33,7 +33,7 @@ function DashboardCard010() {
 		},
 		{
 			id: '2',
-			name: 'Shift usage 1hr later to save $20 this month',
+			name: 'Use appliances 1 hour later to save $20 this month',
 			fullTitle: 'Use Appliances Off-peak Hours to Save',
 			fullText:
 				"Based on your usage last month, using power one hour later (after 9pm) should save $20 on next month's bill. ",
@@ -55,10 +55,17 @@ function DashboardCard010() {
 	return (
 		<div
 			style={{ position: 'relative' }}
-			className="col-span-full xl:col-span-6 bg-white dark:bg-gray-800 shadow-sm rounded-xl"
+			className="col-span-full xl:col-span-8 bg-white dark:bg-gray-800 shadow-sm rounded-xl"
 		>
 			<header className="px-5 py-4 border-b border-gray-100 dark:border-gray-700/60">
-				<h2 className="font-semibold text-gray-800 dark:text-gray-100">Insights</h2>
+				<div className="flex justify-between items-end">
+					<div>
+						<h2 className="font-semibold text-gray-800 dark:text-gray-100 text-xl">Insights</h2>{' '}
+					</div>
+					<div>
+						<i>Click on rows to see more</i>
+					</div>
+				</div>
 			</header>
 			<div className={`${popoverActive ? 'py-3' : 'p-3'}`}>
 				<div className="overflow-x-auto">
