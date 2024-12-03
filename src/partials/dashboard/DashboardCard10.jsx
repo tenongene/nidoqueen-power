@@ -36,7 +36,7 @@ function DashboardCard010() {
 			name: 'Use appliances 1 hour later to save $20 this month',
 			fullTitle: 'Use Appliances Off-peak Hours to Save',
 			fullText:
-				"Based on your usage last month, using power one hour later (after 9pm) should save $20 on next month's bill. ",
+				"Based on your usage last month, using power one hour later (after 10pm) should save $20 on next month's bill. ",
 			image: Cash,
 			alt: 'Med',
 		},
