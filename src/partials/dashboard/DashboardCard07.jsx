@@ -50,7 +50,7 @@ function DashboardCard07() {
 									<div className="text-center">240 kWh</div>
 								</td>
 								<td className="p-2">
-									<div className="text-center text-green-500">+4.7%</div>
+									<div className="text-center text-red-500">+4.7%</div>
 								</td>
 								<td className="p-2">
 									<div className="text-center"></div>
@@ -78,7 +78,7 @@ function DashboardCard07() {
 									<div className="text-center">210 kWh</div>
 								</td>
 								<td className="p-2">
-									<div className="text-center text-green-500">+5.6%</div>
+									<div className="text-center text-red-500">+5.6%</div>
 								</td>
 								<td className="p-2">
 									<div className="text-center"></div>
@@ -106,7 +106,7 @@ function DashboardCard07() {
 									<div className="text-center">137 kWh</div>
 								</td>
 								<td className="p-2">
-									<div className="text-center text-green-500">+9.4%</div>
+									<div className="text-center text-red-500">+9.4%</div>
 								</td>
 								<td className="p-2">
 									<div className="text-center"></div>
@@ -134,7 +134,7 @@ function DashboardCard07() {
 									<div className="text-center">95 kWh</div>
 								</td>
 								<td className="p-2">
-									<div className="text-center text-green-500">+3.2%</div>
+									<div className="text-center text-red-500">+3.2%</div>
 								</td>
 								<td className="p-2">
 									<div className="text-center"></div>
@@ -161,7 +161,7 @@ function DashboardCard07() {
 									<div className="text-center">75 kWh</div>
 								</td>
 								<td className="p-2">
-									<div className="text-center text-green-500">+11.6%</div>
+									<div className="text-center text-red-500">+11.6%</div>
 								</td>
 								<td className="p-2">
 									<div className="text-center"></div>
@@ -188,7 +188,7 @@ function DashboardCard07() {
 									<div className="text-center">56 kWh</div>
 								</td>
 								<td className="p-2">
-									<div className="text-center text-green-500">+0.9%</div>
+									<div className="text-center text-red-500">+0.9%</div>
 								</td>
 								<td className="p-2">
 									<div className="text-center"></div>

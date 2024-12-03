@@ -13,7 +13,7 @@ function DashboardCard01() {
 		datasets: [
 			// Indigo line
 			{
-				data: [825, 643, 1420, 500, 1024, 1235, 1783],
+				data: [825, 643, 1420, 500, 1024, 1415, 1783],
 				fill: true,
 				backgroundColor: function (context) {
 					const chart = context.chart;
@@ -85,7 +85,7 @@ function DashboardCard01() {
 				<div className="text-xs font-semibold text-gray-400 dark:text-gray-500 uppercase mb-1"></div>
 				<div className="flex items-start">
 					<div className="text-3xl font-bold text-gray-800 dark:text-gray-100 mr-2">1783 kWh</div>
-					<div className="text-sm font-medium text-green-700 px-1.5 bg-green-500/20 rounded-full">+10%</div>
+					<div className="text-sm font-medium text-red-700 px-1.5 bg-red-500/20 rounded-full">+26%</div>
 				</div>
 			</div>
 			{/* Chart built with Chart.js 3 */}

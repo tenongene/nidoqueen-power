@@ -9,7 +9,7 @@ function DashboardCard11() {
 		labels: ['Reasons'],
 		datasets: [
 			{
-				label: 'Water Heating (variable)',
+				label: 'HVAC (variable)',
 				data: [27],
 				backgroundColor: tailwindConfig().theme.colors.violet[500],
 				hoverBackgroundColor: tailwindConfig().theme.colors.violet[600],
@@ -17,7 +17,7 @@ function DashboardCard11() {
 				categoryPercentage: 1,
 			},
 			{
-				label: 'HVAC (variable)',
+				label: 'Water (variable)',
 				data: [22],
 				backgroundColor: tailwindConfig().theme.colors.violet[700],
 				hoverBackgroundColor: tailwindConfig().theme.colors.violet[800],

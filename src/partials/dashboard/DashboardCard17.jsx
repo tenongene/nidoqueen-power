@@ -77,7 +77,7 @@ function DashboardCard17() {
 				</header>
 				<div className="text-xs font-semibold text-gray-400 dark:text-gray-500 uppercase mb-1"></div>
 				<div className="flex items-start">
-					<div className="text-3xl font-bold text-gray-800 dark:text-gray-100 mr-2">7PM to 9PM</div>
+					<div className="text-3xl font-bold text-gray-800 dark:text-gray-100 mr-2">8PM to 10PM</div>
 				</div>
 			</div>
 			{/* Chart built with Chart.js 3 */}
