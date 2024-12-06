@@ -17,7 +17,7 @@ function DashboardCard11() {
 				categoryPercentage: 1,
 			},
 			{
-				label: 'Water (variable)',
+				label: 'Water Heating (variable)',
 				data: [22],
 				backgroundColor: tailwindConfig().theme.colors.violet[700],
 				hoverBackgroundColor: tailwindConfig().theme.colors.violet[800],
